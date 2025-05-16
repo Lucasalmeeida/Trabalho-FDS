@@ -1,0 +1,86 @@
+Body{ 
+    background-color: rgb(226, 251, 251);
+}
+h1 {
+    color: rgb(53, 76, 139);
+    text-align: center;
+}
+
+.autobiografia {
+    font-size: 1.3em;
+    text-align: justify;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+
+.hobb {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+li {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.pesca {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.titletable {
+    text-align: right;
+    padding: 40px;
+}
+
+caption {
+    padding: 60px;
+
+}
+
+table {
+    width: 700px;
+    position: relative;
+    border: 1px solid black;
+}
+
+th, td  {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td > img {
+     height: 100px;
+    width:100px;
+    display: block;
+    margin: auto;
+}
+
+th {
+    background-color: rgb(175, 175, 175);
+}
+
+a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.link {
+    padding-top: 60px;
+    text-indent: 2%;
+}
