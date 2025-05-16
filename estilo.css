@@ -9,14 +9,25 @@ h1 {
 .autobiografia {
     font-size: 1.3em;
     text-align: justify;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+
+#botao {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.resposta {
+    font-size: 1.1em;
+    padding: 10px;
+
 }
 
 .hobb {
-    padding-left: 30px;
-    padding-bottom: 10px;
+    padding: 90px 0 10px 20px;
     font-size: x-large;
 }
 
@@ -28,26 +39,21 @@ li {
 .pesca {
     height: 400px;
     width: 400px;
-    border-radius: 20px;
+    border-radius: 30px;
     display: block;
     margin: auto;
-    padding-bottom: 60px;
 }
 
 .titletable {
-    text-align: right;
-    padding: 40px;
+    padding: 150px 0px 10px 2px ;
 }
 
-caption {
-    padding: 60px;
-
-}
 
 table {
     width: 700px;
     position: relative;
     border: 1px solid black;
+    padding: 3px;
 }
 
 th, td  {
@@ -81,6 +87,5 @@ a:hover {
 }
 
 .link {
-    padding-top: 60px;
-    text-indent: 2%;
+    padding-top: 150px ;
 }

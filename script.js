@@ -1,8 +1,24 @@
-let botao = document.querySelector("botao")
-botao.style.background="blue";
+let botao = document.querySelector("#botao")
 
-botao.addEventListener("mouseover",trocaverde)
+let resposta = document.querySelector (".resposta");
 
-function trocaverde(){
-    botao.style.background="green";
+
+botao.addEventListener("click", apareceTexto);
+
+botao.addEventListener("mouseover",fundo);
+
+botao.addEventListener("mouseout",fundo2);
+
+
+function fundo(){
+    botao.style.background="gray"
+}
+
+function fundo2(){
+    botao.style.background="white"
+}
+
+function apareceTexto(){
+
+    resposta.innerHTML = "Olá, obrigado pela sua visita e sinta-se à vontade para passear pelo site. "
 }
